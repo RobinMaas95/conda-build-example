@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conda-build-example"
+version = "0.1.0"
+description = "A simple conda package example"
+readme = "README.md"
+requires-python = ">=3.12"
+
+[project.scripts]
+hello = "main:hello"
